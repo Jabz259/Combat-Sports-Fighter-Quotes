@@ -12,7 +12,6 @@ body {
 
 .section-middle {
     display: flex;
-    margin-right: 10px;
     flex-flow: row wrap;
     
     
