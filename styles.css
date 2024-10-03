@@ -24,6 +24,13 @@ div {
     flex: 130px;
 }
 
+h1 {
+   text-align: center;
+   font-size: 80px;
+   color: azure;
+   text-shadow: 1px 1px 1px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 1), 0 0 0.5em rgb(0, 0, 0);
+   opacity: 95%;
+}
 /* div:nth-of-type(3) {
     default size of the parent container more in width
     flex: 2 200px;
