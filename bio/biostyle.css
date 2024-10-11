@@ -1,0 +1,53 @@
+
+body {
+    background-color: grey;
+}
+
+
+.bio-card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 60%;
+    height: 35%;
+    border: 5px black solid;
+    background-color: grey;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0), 0 0 0em rgb(0, 0, 0), 0 0 1.5em rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+.container > h1 {
+    text-align: center;
+}
+
+.fighter-image img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0), 0 0 0em rgb(0, 0, 0), 0 0 1.5em rgb(0, 0, 0);
+}
+
+.fighter-info{
+    background-color: black;
+    margin-top: 60px;
+    padding: 50px;
+    height: 20p;
+    width: 30%;
+    color: white;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.container p {
+    margin: 10px;
+    color: white;
+    background-color: black;
+}
