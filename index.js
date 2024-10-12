@@ -37,10 +37,10 @@ fighterClass.forEach(nav => {
                 window.location.href = fighterPage;
                 console.log("hello");
                 } else {
-                    alert("page does not exist yet")
+                    alert("Page does not exist")
                 }
         } catch (error) {
-            console.log("Unable to load contents")
+            console.log("Error, unable to display anything!")
         }
     })
 })

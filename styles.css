@@ -1,3 +1,4 @@
+
 .staatliches-regular {
     font-family: "Staatliches", sans-serif;
     font-weight: 400;
@@ -5,10 +6,16 @@
   }
   
 body {
+    margin: 0px;
     background-color:grey;
+    background-image: url("images/background.jpg");
 }
 
 
+.filter{
+    width: 100vw;
+    backdrop-filter: blur(5px);
+}
 
 .first-row {
     display: flex;
@@ -35,11 +42,13 @@ body {
 
 
 h1 {
+   margin: 0px 0px 50px 0px; 
    text-align: center;
    font-size: 80px;
    color: azure;
    text-shadow: 1px 1px 1px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 1), 0 0 0.5em rgb(0, 0, 0);
    opacity: 95%;
+   background-color: black;
 }
 /* div:nth-of-type(3) {
     default size of the parent container more in width
@@ -55,8 +64,8 @@ h1 {
     border-radius: 20px;
     margin-right: 25px;
     margin-bottom: 25px;
-    box-shadow: 0px 0px 0px rgb(0, 0, 0), 0 0 0em rgb(0, 0, 0), 0 0 1.5em rgb(0, 0, 0);
-    transition: all 0.2s;
+    /* box-shadow: 0px 0px 0px rgb(0, 0, 0), 0 0 0em rgb(0, 0, 0), 0 0 1.5em rgb(0, 0, 0); */
+    transition: all 0.5s;
 }
 
 
@@ -68,7 +77,8 @@ h1 {
     object-fit: cover;
     position: absolute;
     border-radius: inherit;
-
+    box-shadow: 0px 0px 0px rgb(0, 0, 0), 0 0 0em rgb(0, 0, 0), 0 0 1.5em rgb(0, 0, 0);
+    
 }
 
 .fighter-frame:hover{
@@ -106,12 +116,10 @@ h1 {
     opacity: 0.80;
 }
 
-.quote-text:hover{
+/* .quote-text:hover{
     color: white;
     opacity: 1;
-    transition: all 0.2s;
-    
-}
+} */
 
 /* .quote-text:hover {
     transition: all 0.2s;
