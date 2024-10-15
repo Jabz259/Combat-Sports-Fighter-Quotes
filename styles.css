@@ -6,6 +6,7 @@
   }
   
 body {
+    min-height: 100dvh;
     margin: 0px;
     background-color:grey;
     background-image: url("images/background.jpg");
@@ -59,8 +60,8 @@ h1 {
 
 /* Setting the dimensions of the frame */
 .fighter-frame {
-    width: 500px;
-    height: 345px;
+    width: 450px;
+    height: 335px;
     border-radius: 20px;
     margin-right: 25px;
     margin-bottom: 25px;
