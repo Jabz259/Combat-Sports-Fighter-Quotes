@@ -9,7 +9,7 @@ body {
     min-height: 100dvh;
     margin: 0px;
     background-color:grey;
-    background-image: url("images/background.jpg");
+    background-image: url("images/backgroundgrunge.jpg");
 }
 
 
@@ -50,6 +50,7 @@ h1 {
    text-shadow: 1px 1px 1px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 1), 0 0 0.5em rgb(0, 0, 0);
    opacity: 95%;
    background-color: black;
+   box-shadow: 0px 0px 0px rgb(255, 255, 255), 0 0 0em rgb(255, 255, 255), 0 0 1.5em rgb(255, 255, 255);
 }
 /* div:nth-of-type(3) {
     default size of the parent container more in width
@@ -114,8 +115,15 @@ h1 {
     text-align: center;
     font-size: 38px;
     text-shadow: 2px 2px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 1), 0 0 0.9em rgb(0, 0, 0);
-    opacity: 0.80;
+    opacity: 0.7;
 }
+
+
+.quote-text:hover {
+    transition: 0.5s;
+    opacity: 0.9;
+}
+
 
 /* .quote-text:hover{
     color: white;
