@@ -8,7 +8,7 @@ body {
     min-height: 100dvh;
     background-color: grey;
     background-image: url('../images/background.jpg');
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
     margin: 0px;
     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
